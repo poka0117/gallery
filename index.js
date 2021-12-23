@@ -1,8 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    //強制的にキャッシュ削除
-    console.log('hhhhhhhh');
+    console.log('hhhhおhhhh');
 })
 
 // header

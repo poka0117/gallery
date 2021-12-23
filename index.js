@@ -55,12 +55,12 @@ $(window).ready(function(){
     let galleryTitleOffset = $('section.gallery h2').offset().top;
     let accesstoffset = $('section.access h2').offset().top/1.3;
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
-    let galleryimgoffset1 = $('.imgWrapper_1').offset().top/1.2; 
-    let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.2; 
-    let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.2; 
-    let galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.2; 
-    let galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.2;
-    let galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.2; 
+    let galleryimgoffset1 = $('.imgWrapper_1').offset().top/1.1; 
+    let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.1; 
+    let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.1; 
+    let galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.1; 
+    let galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.1;
+    let galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.1; 
     $(window).scroll(function(){
         let scroll = $(this).scrollTop() + $(window).height()/1.5;
         if(scroll > titleOffset){

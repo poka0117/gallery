@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('hh');
+    console.log('hyyyyh');
 })
 
 // header
@@ -107,7 +107,7 @@ $(window).on('load',function(){
             $('.right_menu').removeClass('right_menu_after');
         }
           // bg_flower hidden
-        if( accesstoffset + all_imgoffser < scroll && scroll < contactTitleOffset){
+        if( accesstoffset < scroll && scroll < contactTitleOffset){
             $('.flower_bg').addClass('flower_bg_after');
         }else{
             $('.flower_bg').removeClass('flower_bg_after');

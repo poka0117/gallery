@@ -68,7 +68,7 @@ $(window).ready(function(){
     var galleryimgoffset1 = $('.imgWrapper_1').offset().top;
     var galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
     var galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.1; 
-    var galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.12; 
+    var galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.1; 
     var galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.14;
     var galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.15; 
     }

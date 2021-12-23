@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('i');
+    console.log('is');
 })
 
 // header
@@ -66,7 +66,6 @@ $(window).ready(function(){
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     }else{
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
-        console.log(galleryimgoffset1 + 'www');
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 
     let galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.3; 

@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('tt');
+    console.log('tttt');
 })
 
 // header
@@ -56,12 +56,12 @@ $(window).ready(function(){
     let galleryTitleOffset = $('section.gallery h2').offset().top;
     let accesstoffset = $('section.access h2').offset().top/1.2;
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
-    let galleryimgoffset1 = $('.imgWrapper_1').offset().top-80;
-    let galleryimgoffset2 = $('.imgWrapper_2').offset().top-80; 
-    let galleryimgoffset3 = $('.imgWrapper_3').offset().top-80; 
-    let galleryimgoffset4 = $('.imgWrapper_4').offset().top-80; 
-    let galleryimgoffset5 = $('.imgWrapper_5').offset().top-80;
-    let galleryimgoffset6 = $('.imgWrapper_6').offset().top-80; 
+    let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
+    let galleryimgoffset2 = $('.imgWrapper_2').offset().top-100; 
+    let galleryimgoffset3 = $('.imgWrapper_3').offset().top-200; 
+    let galleryimgoffset4 = $('.imgWrapper_4').offset().top-300; 
+    let galleryimgoffset5 = $('.imgWrapper_5').offset().top-400;
+    let galleryimgoffset6 = $('.imgWrapper_6').offset().top-500; 
     $(window).scroll(function(){
         let scroll = $(this).scrollTop() + $(window).height();
         if(scroll > titleOffset){

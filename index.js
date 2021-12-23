@@ -54,8 +54,8 @@ $(window).on('load',function(){
     let titleOffset = $('.title').offset().top;
     let infomationOffset = $('section.infomation').offset().top;
     let galleryTitleOffset = $('section.gallery h2').offset().top;
-    let accesstoffset = $('section.access h2').offset().top/1.2;
-    let contactTitleOffset = $('section.contact h2').offset().top/1.2;
+    let accesstoffset = $('section.access h2').offset().top;
+    let contactTitleOffset = $('section.contact h2').offset().top;
     var galleryimgoffset1 = $('.imgWrapper_1').offset().top;
     var galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
     var galleryimgoffset3 = $('.imgWrapper_3').offset().top; 

@@ -1,7 +1,6 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('hyyyyh');
 })
 
 // header

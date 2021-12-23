@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('eeuii');
+    console.log('i');
 })
 
 // header
@@ -58,9 +58,7 @@ $(window).ready(function(){
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
     let windowW = $(this).width();
     if(windowW > 1024){
-        console.log('PCです');
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
-        console.log(galleryimgoffset1);
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top; 
     let galleryimgoffset4 = $('.imgWrapper_4').offset().top; 
@@ -68,6 +66,7 @@ $(window).ready(function(){
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     }else{
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
+        console.log(galleryimgoffset1 + 'www');
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 
     let galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.3; 
@@ -75,8 +74,7 @@ $(window).ready(function(){
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.3; 
     }
     console.log(galleryimgoffset1);
-    console.log(galleryimgoffset2);
-    console.log(galleryimgoffset3);
+  
     $(window).scroll(function(){
         let scroll = $(this).scrollTop() + $(window).height()/1;
         if(scroll > titleOffset){

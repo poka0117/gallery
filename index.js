@@ -1,6 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
+    console.log('tt');
 })
 
 // header
@@ -62,7 +63,7 @@ $(window).ready(function(){
     let galleryimgoffset5 = $('.imgWrapper_5').offset().top-80;
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top-80; 
     $(window).scroll(function(){
-        let scroll = $(this).scrollTop() + $(window).height()/1.3;
+        let scroll = $(this).scrollTop() + $(window).height();
         if(scroll > titleOffset){
             $('.title').addClass('fadeIn');
         }

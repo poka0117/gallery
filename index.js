@@ -2,7 +2,6 @@
 $(document).ready(function(){
     $('body').fadeIn();
     //強制的にキャッシュ削除
-    location.reload(true);
     console.log('hhhhhhhh');
 })
 

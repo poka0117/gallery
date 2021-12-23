@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 // main & right_menu
 
-$(window).load(function(){
+$(window).on('load',function(){
     let titleOffset = $('.title').offset().top;
     let infomationOffset = $('section.infomation').offset().top;
     let galleryTitleOffset = $('section.gallery h2').offset().top;
@@ -64,7 +64,7 @@ $(window).load(function(){
     var galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
 
     $(window).scroll(function(){
-        let scroll = $(this).scrollTop() + $(window).height();
+        let scroll = $(this).scrollTop() + $(window).height() -100;
         if(scroll > titleOffset){
             $('.title').addClass('fadeIn');
         }

@@ -58,19 +58,19 @@ $(window).ready(function(){
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
     let windowW = $(this).width();
     if(windowW > 1024){
-    let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
-    let galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
-    let galleryimgoffset3 = $('.imgWrapper_3').offset().top; 
-    let galleryimgoffset4 = $('.imgWrapper_4').offset().top; 
-    let galleryimgoffset5 = $('.imgWrapper_5').offset().top;
-    let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
+    var galleryimgoffset1 = $('.imgWrapper_1').offset().top;
+    var galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
+    var galleryimgoffset3 = $('.imgWrapper_3').offset().top; 
+    var galleryimgoffset4 = $('.imgWrapper_4').offset().top; 
+    var galleryimgoffset5 = $('.imgWrapper_5').offset().top;
+    var galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     }else{
-    let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
-    let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
-    let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 
-    let galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.3; 
-    let galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.3;
-    let galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.3; 
+    var galleryimgoffset1 = $('.imgWrapper_1').offset().top;
+    var galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
+    var galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 
+    var galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.3; 
+    var galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.3;
+    var galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.3; 
     }
 
     $(window).scroll(function(){

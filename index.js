@@ -63,7 +63,7 @@ $(window).ready(function(){
     let galleryimgoffset5 = $('.imgWrapper_5').offset().top;
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     $(window).scroll(function(){
-        let scroll = $(this).scrollTop() + $(window).height()/1.1;
+        let scroll = $(this).scrollTop() + $(window).height()/1;
         if(scroll > titleOffset){
             $('.title').addClass('fadeIn');
         }

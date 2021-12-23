@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('uttyyyuui');
+    console.log('u');
 })
 
 // header
@@ -57,8 +57,7 @@ $(window).ready(function(){
     let accesstoffset = $('section.access h2').offset().top/1.2;
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
     let windowW = $(this).width();
-    console.log(windowW);
-    if($(this).width()>1024){
+    if(windowW > 1024){
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top; 
@@ -66,6 +65,7 @@ $(window).ready(function(){
     let galleryimgoffset5 = $('.imgWrapper_5').offset().top;
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     }else{
+    console.log('こっち');
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 

@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('u');
+    console.log('uii');
 })
 
 // header
@@ -65,7 +65,6 @@ $(window).ready(function(){
     let galleryimgoffset5 = $('.imgWrapper_5').offset().top;
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     }else{
-    console.log('こっち');
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 
@@ -73,6 +72,9 @@ $(window).ready(function(){
     let galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.3;
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.3; 
     }
+    console.log(galleryimgoffset1);
+    console.log(galleryimgoffset2);
+    console.log(galleryimgoffset3);
     $(window).scroll(function(){
         let scroll = $(this).scrollTop() + $(window).height()/1;
         if(scroll > titleOffset){

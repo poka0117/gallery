@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('iｔys');
+    console.log('s');
 })
 
 // header
@@ -66,20 +66,15 @@ $(window).ready(function(){
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
     }else{
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
-        
-        console.log(galleryimgoffset1+'bbeofr');
-        return galleryimgoffset1;
-        console.log(galleryimgoffset1);
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top/1.3; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.3; 
     let galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.3; 
     let galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.3;
     let galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.3; 
     }
-    console.log(galleryimgoffset1);
-  console.log(galleryimgoffset1+'after');
+
     $(window).scroll(function(){
-        let scroll = $(this).scrollTop() + $(window).height()/1;
+        let scroll = $(this).scrollTop() + $(window).height();
         if(scroll > titleOffset){
             $('.title').addClass('fadeIn');
         }

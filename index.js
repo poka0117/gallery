@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('uii');
+    console.log('eeuii');
 })
 
 // header
@@ -58,7 +58,9 @@ $(window).ready(function(){
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
     let windowW = $(this).width();
     if(windowW > 1024){
+        console.log('PCです');
     let galleryimgoffset1 = $('.imgWrapper_1').offset().top;
+        console.log(galleryimgoffset1);
     let galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
     let galleryimgoffset3 = $('.imgWrapper_3').offset().top; 
     let galleryimgoffset4 = $('.imgWrapper_4').offset().top; 

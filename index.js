@@ -78,23 +78,23 @@ $(window).ready(function(){
             $('.imgWrapper_1').addClass('fadeIn');
         }
         const flowerImg2 = $(".imgWrapper_2 img").height();
-        if(scroll > galleryimgoffset2 + flowerImg1 + flowerImg2){
+        if(scroll > galleryimgoffset2 + flowerImg1){
             $('.imgWrapper_2').addClass('fadeIn');
         }
         const flowerImg3 = $(".imgWrapper_3 img").height();
-        if(scroll > galleryimgoffset3 + flowerImg1 + flowerImg2 + flowerImg3){
+        if(scroll > galleryimgoffset3 + flowerImg1 + flowerImg2){
             $('.imgWrapper_3').addClass('fadeIn');
         }
         const flowerImg4 = $(".imgWrapper_4 img").height();
-        if(scroll > galleryimgoffset4 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4){
+        if(scroll > galleryimgoffset4 + flowerImg1 + flowerImg2 + flowerImg34){
             $('.imgWrapper_4').addClass('fadeIn');
         }
         const flowerImg5 = $(".imgWrapper_5 img").height();
-        if(scroll > galleryimgoffset5 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4 + flowerImg5){
+        if(scroll > galleryimgoffset5 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4){
             $('.imgWrapper_5').addClass('fadeIn');
         }
         const flowerImg6 = $(".imgWrapper_6 img").height();
-        if(scroll > galleryimgoffset6 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4 + flowerImg5 + flowerImg6){
+        if(scroll > galleryimgoffset6 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4 + flowerImg5){
             $('.imgWrapper_6').addClass('fadeIn');
         }
         // right_menu hide

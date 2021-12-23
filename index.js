@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('hhhhおhhhh');
+    console.log('hhh0000000hおhhhh');
 })
 
 // header
@@ -50,28 +50,18 @@ $(document).ready(function(){
 
 // main & right_menu
 
-$(window).ready(function(){
+$(window).load(function(){
     let titleOffset = $('.title').offset().top;
     let infomationOffset = $('section.infomation').offset().top;
     let galleryTitleOffset = $('section.gallery h2').offset().top;
     let accesstoffset = $('section.access h2').offset().top/1.2;
     let contactTitleOffset = $('section.contact h2').offset().top/1.2;
-    let windowW = $(this).width();
-    if(windowW > 1024){
     var galleryimgoffset1 = $('.imgWrapper_1').offset().top;
     var galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
     var galleryimgoffset3 = $('.imgWrapper_3').offset().top; 
     var galleryimgoffset4 = $('.imgWrapper_4').offset().top; 
     var galleryimgoffset5 = $('.imgWrapper_5').offset().top;
     var galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
-    }else{
-    var galleryimgoffset1 = $('.imgWrapper_1').offset().top;
-    var galleryimgoffset2 = $('.imgWrapper_2').offset().top; 
-    var galleryimgoffset3 = $('.imgWrapper_3').offset().top/1.1; 
-    var galleryimgoffset4 = $('.imgWrapper_4').offset().top/1.1; 
-    var galleryimgoffset5 = $('.imgWrapper_5').offset().top/1.14;
-    var galleryimgoffset6 = $('.imgWrapper_6').offset().top/1.15; 
-    }
 
     $(window).scroll(function(){
         let scroll = $(this).scrollTop() + $(window).height();

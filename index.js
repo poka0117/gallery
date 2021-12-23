@@ -74,7 +74,7 @@ $(window).ready(function(){
             $('.right_menu').addClass('right_menu_after');
         }
         const flowerImg1 = $(".imgWrapper_1 img").height();
-        if(scroll > galleryimgoffset1 + flowerImg1){
+        if(scroll > galleryimgoffset1){
             $('.imgWrapper_1').addClass('fadeIn');
         }
         const flowerImg2 = $(".imgWrapper_2 img").height();

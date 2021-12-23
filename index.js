@@ -86,7 +86,7 @@ $(window).ready(function(){
             $('.imgWrapper_3').addClass('fadeIn');
         }
         const flowerImg4 = $(".imgWrapper_4 img").height();
-        if(scroll > galleryimgoffset4 + flowerImg1 + flowerImg2 + flowerImg34){
+        if(scroll > galleryimgoffset4 + flowerImg1 + flowerImg2 + flowerImg3){
             $('.imgWrapper_4').addClass('fadeIn');
         }
         const flowerImg5 = $(".imgWrapper_5 img").height();

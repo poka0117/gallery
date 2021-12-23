@@ -1,7 +1,7 @@
 // 最初のtransition 回避
 $(document).ready(function(){
     $('body').fadeIn();
-    console.log('hhh0000000hおhhhh');
+    console.log('hh');
 })
 
 // header
@@ -64,7 +64,7 @@ $(window).on('load',function(){
     var galleryimgoffset6 = $('.imgWrapper_6').offset().top; 
 
     $(window).scroll(function(){
-        let scroll = $(this).scrollTop() + $(window).height() -100;
+        let scroll = $(this).scrollTop() + $(window).height();
         if(scroll > titleOffset){
             $('.title').addClass('fadeIn');
         }
@@ -75,39 +75,39 @@ $(window).on('load',function(){
             $('section.gallery h2').addClass('fadeIn');
             $('.right_menu').addClass('right_menu_after');
         }
-        const flowerImg1 = $(".imgWrapper_1 img").height();
+       
         if(scroll > galleryimgoffset1){
             $('.imgWrapper_1').addClass('fadeIn');
         }
-        const flowerImg2 = $(".imgWrapper_2 img").height();
-        if(scroll > galleryimgoffset2 + flowerImg1){
+   
+        if(scroll > galleryimgoffset2){
             $('.imgWrapper_2').addClass('fadeIn');
         }
-        const flowerImg3 = $(".imgWrapper_3 img").height();
-        if(scroll > galleryimgoffset3 + flowerImg1 + flowerImg2){
+      
+        if(scroll > galleryimgoffset3){
             $('.imgWrapper_3').addClass('fadeIn');
         }
-        const flowerImg4 = $(".imgWrapper_4 img").height();
-        if(scroll > galleryimgoffset4 + flowerImg1 + flowerImg2 + flowerImg3){
+
+        if(scroll > galleryimgoffset4){
             $('.imgWrapper_4').addClass('fadeIn');
         }
-        const flowerImg5 = $(".imgWrapper_5 img").height();
-        if(scroll > galleryimgoffset5 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4){
+       
+        if(scroll > galleryimgoffset5){
             $('.imgWrapper_5').addClass('fadeIn');
         }
-        const flowerImg6 = $(".imgWrapper_6 img").height();
-        if(scroll > galleryimgoffset6 + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4 + flowerImg5){
+    
+        if(scroll > galleryimgoffset6){
             $('.imgWrapper_6').addClass('fadeIn');
         }
         // right_menu hide
-        const all_imgoffser = + flowerImg1 + flowerImg2 + flowerImg3 + flowerImg4 + flowerImg5 + flowerImg6;
-        if(galleryTitleOffset < scroll && scroll < accesstoffset + all_imgoffser){
+       
+        if(galleryTitleOffset < scroll && scroll < accesstoffset){
             $('.right_menu').addClass('right_menu_after');
         }else{
             $('.right_menu').removeClass('right_menu_after');
         }
           // bg_flower hidden
-        if( accesstoffset + all_imgoffser < scroll && scroll < contactTitleOffset + all_imgoffser){
+        if( accesstoffset + all_imgoffser < scroll && scroll < contactTitleOffset){
             $('.flower_bg').addClass('flower_bg_after');
         }else{
             $('.flower_bg').removeClass('flower_bg_after');
